@@ -1,14 +1,74 @@
 h1 {
-  color: red;
+  color: darkslategrey;
   text-align: center;
+  background-color: lightcyan;
+  outline: solid thick paleturquoise;
 }
 
 a:link {
   color: blue;
 }
 
+.secondaryPages {
+  background-image:url("secondaryBackground.jpeg");
+  background-color: teal;
+  height:100%;
+}
+
+.mainPage {
+      background-image:url("secondaryBackground.jpeg");
+      background-color: lightcyan;
+  }
+
+button {
+    background-color: paleturquoise;
+    border: none;
+    color: darkslategrey;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px ;
+    border-radius: 12px;
+}
+
 .navigation {
   text-align: center;
-  background-color: lightgreen;
-  color: hotpink;
+  background-color: lightcyan;
+  outline: solid thick aquamarine;
+  padding: .5cm .5cm .5cm .5cm;
+}
+
+.aboutMain {
+  background-color: lightcyan;
+  border: none;
+  color: slategrey;
+  padding: 15px;
+  float: left;
+  text-align: left;
+  font-size: 16px;
+  margin: 100px 20px;
+  border-radius: 12px;
+  outline: solid thick darkcyan;
+}
+
+#about_h1 {
+  color: darkslategrey;
+  text-align: center;
+  background-color: lightcyan;
+  outline: solid thick darkcyan;
+}
+
+#contactFooter {
+  position:absolute;
+  width:100%;
+  height:10px;
+  float: center;
+  border: none;
+  color: slategrey;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  bottom: 0;
+  border-radius: 12px;
 }
